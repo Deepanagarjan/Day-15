@@ -1,0 +1,160 @@
+.answer-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(248, 162, 3);
+  color: rgb(6, 5, 5);
+}
+
+html{
+  margin: 0;
+  overflow-x: hidden;
+  scrollbar-width: 1px;
+  background-color: rgb(144, 210, 14);
+  color:rgb(43, 43, 43);
+}
+body{
+  margin: 0px;
+  background-color: rgb(35, 215, 231);
+}
+
+.jumbo{
+  padding: 2%;
+  margin: 1%;
+  width: 100%;
+  max-width: 1000px;
+}
+
+#workspace1{
+  background-color: rgb(13, 13, 13);
+  color: rgb(228, 227, 227);
+  padding: 2%;
+  margin: 1%;
+  border-radius: 4px;
+}
+
+.anSpace{
+  background-color: rgb(19, 19, 19);
+  color: rgb(228, 227, 227);
+  padding: 20px;
+  margin: 1%;
+  border-radius: 4px;
+  align-items: center;
+  overflow: auto;
+}
+.btn:focus{
+  outline: none;
+  box-shadow: none;
+
+}
+.page-btns{
+  display: flex;
+ width: 100%;
+  overflow-x: auto;
+}
+
+.link{
+  color: rgb(235, 13, 117);
+}
+
+code{
+  font-family:'Courier New', Courier, monospace ;
+  /* background-color: grey; */
+  padding: 2px;
+  /* border-radius: 3px; */
+  color: rgb(109, 109, 109);
+}
+
+.line{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.line:before, .line:after {
+  content:"  ";
+  flex : 1 1;
+  border-bottom: 1px solid #797979;
+  margin: auto;
+}
+
+.line span{
+  padding: 3px;
+  margin: 3px;
+}
+
+table,thead, tbody, tr, th, td{
+  border: none;
+}
+tr{
+  background-color:rgb(99, 99, 99);
+  color:rgb(228, 227, 227)
+}
+tr:nth-child(odd){
+  background-color:aliceblue;
+  color:rgb(43, 42, 42)
+}
+
+button{
+  margin: 1%
+}
+.d-flex{
+  align-items: center;
+  
+  justify-content: center
+}
+
+footer{
+  background-color: rgb(43, 42, 42);
+  width: 100%;
+  color: #b9b8b8;
+  padding: 10px;
+
+}
+footer h6{
+  color: white;
+}
+.foot-card{
+margin: 5%;
+padding: 3%;
+border-left: #b9b8b8 1px solid;
+min-height: 10vh;
+}
+
+.foot-card p{
+font-size: small;
+}
+
+.foot-card a{
+  color:#585858 ;
+}
+.foot-card a:hover{
+  color:#e4e4e4
+}
+nav{
+  background-color:rgb(43, 42, 42);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: wheat;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
