@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<!---HTML, CSS, JS---->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM CALCULATOR | Developed by deepa</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link href="style1.css" type="text/css" rel="stylesheet" />
+    <script src="script1.js"></script>
+    
+    
+</head>
+
+<body>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <div class="container mt-5">
+        <div class="calculator">
+            <input type="text" id="display" class="form-control mb-3" disabled>
+            <div class="row">
+                <div class="col-3"><button class="btn btn-primary btn-block" onclick="addToDisplay('1')">1</button></div>
+                <div class="col-3"><button class="btn btn-primary btn-block" onclick="addToDisplay('2')">2</button></div>
+                <div class="col-3"><button class="btn btn-primary btn-block" onclick="addToDisplay('3')">3</button></div>
+                <div class="col-3"><button class="btn btn-warning btn-block" onclick="performOperation('+')">+</button></div>
+            </div>
+            <div class="row">
+                <div class="col-3"><button class="btn btn-primary btn-block" onclick="addToDisplay('4')">4</button></div>
+                <div class="col-3"><button class="btn btn-primary btn-block" onclick="addToDisplay('5')">5</button></div>
+                <div class="col-3"><button class="btn btn-primary btn-block" onclick="addToDisplay('6')">6</button></div>
+                <div class="col-3"><button class="btn btn-warning btn-block" onclick="performOperation('-')">-</button></div>
+            </div>
+            <div class="row">
+                <div class="col-3"><button class="btn btn-primary btn-block" onclick="addToDisplay('7')">7</button></div>
+                <div class="col-3"><button class="btn btn-primary btn-block" onclick="addToDisplay('8')">8</button></div>
+                <div class="col-3"><button class="btn btn-primary btn-block" onclick="addToDisplay('9')">9</button></div>
+                <div class="col-3"><button class="btn btn-warning btn-block" onclick="performOperation('*')">*</button></div>
+            </div>
+            <div class="row">
+                <div class="col-3"><button class="btn btn-primary btn-block" onclick="addToDisplay('0')">0</button></div>
+                <div class="col-3"><button class="btn btn-primary btn-block" onclick="addToDisplay('.')">.</button></div>
+                <div class="col-3"><button class="btn btn-success btn-block" onclick="calculate()">=</button></div>
+                <div class="col-3"><button class="btn btn-danger btn-block" onclick="clearDisplay()">C</button></div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
